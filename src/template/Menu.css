@@ -1,0 +1,61 @@
+.navsidemenu-li {
+  display: block;
+  position: relative;
+  float: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navsidemenu-li.selected:not(.with-sub-menu) {
+  background-color: #209e91;
+  font-weight: bold;
+}
+
+.navsidemenu-li a:hover,
+.navsidemenu-li .navsidemenu-span:hover,
+.navsidemenu-li .navsidemenu-span-active {
+  text-decoration: none;
+  background-color: #209e91;
+}
+
+.navsidemenu-li a,
+.navsidemenu-li .navsidemenu-span {
+  display: block;
+  height: 30px;
+  text-shadow: none;
+  font-size: 13px;
+  line-height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  outline: 0 !important;
+  color: white;
+}
+
+.navsidemenu-li a span,
+.navsidemenu-li .navsidemenu-span span {
+  padding-left: 42px;
+}
+
+.navsubmenu .navsidemenu-li a {
+  padding-left: 0 !important;
+}
+
+.navsidemenu-li-active-level-1 {
+  background-color: #209e91;
+}
+
+.navsidemenu-li-active-level-2 {
+  font-weight: bold;
+  background-color: #209e91;
+}
+
+.navsubmenu {
+  display: none;
+}
+
+.navsubmenu-active {
+  display: block !important;
+  padding-left: 0;
+  background-color: rgb(35, 35, 43);
+}

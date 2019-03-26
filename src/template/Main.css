@@ -1,0 +1,26 @@
+html,
+body {
+  background-image: url("../images/body-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  font-family: "Numans", sans-serif;
+}
+
+.main-content {
+  margin-left: 180px;
+  padding: 40px 0 0;
+}
+
+.actual-content {
+  padding: 8px 32px 8px 40px;
+}
+
+.content-title {
+  display: flex;
+  flex-direction: flow;
+}
+
+.content-title-span {
+  display: flex;
+}

@@ -1,0 +1,16 @@
+.side-bar {
+  background: rgba(0, 0, 0, 0.5);
+  width: 180px;
+  top: 40px;
+  left: 0;
+  z-index: 904;
+  min-height: 100%;
+  display: block;
+  position: fixed;
+}
+
+.nav-ul {
+  margin: 0;
+  padding: 18px 0 0;
+  list-style: none;
+}
